@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Card from "../components/card"; //컴포넌트로 쓸때는 중괄호 없이 <>로할때 가능
 import { useMatch } from "react-router-dom";
 import { Modal } from "../components/modal";
-import { useNavigate } from "react-router-dom";
 
 const Wrapper = styled.div`
   display: flex;
